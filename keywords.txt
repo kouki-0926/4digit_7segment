@@ -1,0 +1,17 @@
+#######################################
+# Syntax Coloring Map For 4digit7segment
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+4digit7segment	KEYWORD1	4digit7segment
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+init_7seg	KEYWORD2
+Display	KEYWORD2
+Display_4digit	KEYWORD2
+Display_4digit_2	KEYWORD2
