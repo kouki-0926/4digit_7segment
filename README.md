@@ -1,6 +1,8 @@
-# 4digit_7segment
+# 4digit_7segment v0.1.2
 
 ## Library for controlling 4digit_7segment display with Arduino and 74HC595
+
+###### This library is designed for 4digit_7segment display of common cathode.
 
 ###### If you did not install fastio library, please install the library from https://synapse.kyoto/lib/fastio/page001.html.
 
@@ -8,7 +10,7 @@
 
 ---
 
-##### Declaration of pins and connections
+#### Declaration of pins and connections
 
 |  | __4digit_7segment pin__ | __74HC595 pin__ |
 |:---:|:---:|:---:|

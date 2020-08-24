@@ -34,4 +34,5 @@ void loop(){
   time_Display(12,34);
   // The 1st parameter is the current hour.
   // The 2nd parameter is the current minute.
+  // This function does not display the correct time at all.
 }
