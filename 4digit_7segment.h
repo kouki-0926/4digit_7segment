@@ -1,4 +1,5 @@
-#ifndef _4digit7segment_h
+#ifndef _4digit_7segment_h
+#define _4digit_7segment_h
 
 #include <fastio.h>  // https://synapse.kyoto/lib/fastio/page001.html
 
@@ -10,7 +11,7 @@
 #define DIG3 5
 #define DIG4 6
 
-unsigned char table[]={0x3f,0x06,0x5b,0x4f,0x66,0x6d,0x7d,0x07,0x7f,
+const char table[]={0x3f,0x06,0x5b,0x4f,0x66,0x6d,0x7d,0x07,0x7f,
                        0x6f,0x77,0x7c,0x39,0x5e,0x79,0x71,0x80};
 //  Define output pattern
 //  74HC595   7 6 5 4 3 2 1 0
@@ -49,7 +50,7 @@ void init_7seg() {
   pinMode(DIG4,OUTPUT);
 }
 
-void Display(unsigned char num,int digit){
+void Display(char num,int digit){
   // The 1st parameter is Value to output.
   // The 2nd parameter is Digits to output.
 
@@ -83,7 +84,7 @@ void Display(unsigned char num,int digit){
 
 //Output 4 values
 void Display_4digit(int val_1,int val_2,int val_3,int val_4){
-  for(int i=0;i<3;i++){
+  for(int i=0;i<30;i++){
     Display(val_1,1);
     Display(val_2,2);
     Display(val_3,3);
