@@ -1,16 +1,20 @@
-# 4digit_7segment v0.1.2
+# 4digit_7segment   v0.1.2
 
-## Library for controlling 4digit_7segment display with Arduino and 74HC595
+## Library for controlling 4digit_7segment display of common cathode with Arduino and 74HC595
 
-__This library is designed for 4digit_7segment display of common cathode.__
+[![Github issues](https://img.shields.io/github/issues/kouki-0926/4digit_7segment)](https://github.com/kouki-0926/4digit_7segment/issues)
+[![Github forks](https://img.shields.io/github/forks/kouki-0926/4digit_7segment)](https://github.com/kouki-0926/4digit_7segment/network/members)
+[![Github stars](https://img.shields.io/github/stars/kouki-0926/4digit_7segment)](https://github.com/kouki-0926/4digit_7segment/stargazers)
+[![Github license](https://img.shields.io/github/license/kouki-0926/4digit_7segment)](https://github.com/kouki-0926/4digit_7segment/)
 
+# Tags
+`Arduino` `4 digit 7 segment`
+
+# Installation
 __If you have not installed the fastio library yet, please download the library from https://synapse.kyoto/lib/fastio/page001.html.__
-
 __To use it, place the source code in the Arduino libraries folder on your computer. See the example code for further usage.__
 
----
-
-#### Declaration of pins and connections
+# Declaration of pins and connections
 
 |  | __4digit_7segment pin__ | __74HC595 pin__ |
 |:---:|:---:|:---:|
@@ -31,3 +35,6 @@ __To use it, place the source code in the Arduino libraries folder on your compu
 | DATA   | DS    | D8  |
 | LATCH  | ST_CP | D9  |
 | CLOCK  | SH_CP | D10 |
+
+# Contributors
+- [kouki-0926](https://github.com/kouki-0926)
