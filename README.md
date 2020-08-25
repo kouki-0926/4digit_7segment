@@ -2,11 +2,11 @@
 
 ## Library for controlling 4digit_7segment display with Arduino and 74HC595
 
-###### This library is designed for 4digit_7segment display of common cathode.
+__This library is designed for 4digit_7segment display of common cathode.__
 
-###### If you did not install fastio library, please install the library from https://synapse.kyoto/lib/fastio/page001.html.
+__If you have not installed the fastio library yet, please download the library from https://synapse.kyoto/lib/fastio/page001.html.__
 
-###### To use it, place the source code in the Arduino libraries folder on your computer. See the sample code for further usage.
+__To use it, place the source code in the Arduino libraries folder on your computer. See the example code for further usage.__
 
 ---
 
