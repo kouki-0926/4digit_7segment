@@ -1,35 +1,30 @@
-#include <4digit7segment.h>
+#include <4digit_7segment.h>
 
-void setup(){
-  init_7seg();
+void setup() {
+  init_7seg();       //initialize 4digit_7segment display and 74HC595
 }
 
-int count1=0;
-int count2=0;
-void time_Display(int current_hour,int current_minute){
-  if(count1==0){
-    for(int i=current_hour;i<24;i++){
-      if(count2==0){
-        for(int j=current_minute;j<60;j++){
-          Display_4digit_2(i,j);
-        }
-        count2++;
-      }else if(count2>=1){
-        for(int j=0;j<60;j++){
-          Display_4digit_2(i,j);
-        }
-      }
-    }
-    count1++;
-  }else if(count1>=1){
-    for(int i=0;i<24;i++){
-      for(int j=0;j<60;j++){
-        Display_4digit_2(i,j);
-      }
-    }
+void loop() {
+  for(int i=0;i<210;i++) {
+    Display(0,1);      //Display "0" in the thousands place
+    Display(3,2);      //Display "3" in the hundreds place
+    Display(6,3);      //Display "6" in the tens place
+    Display(9,4);      //Display "9" in the ones place
   }
-}
 
-void loop(){
-  time_Display(12,34);
+  for(int i=0;i<8;i++){
+    Display_4digit(10,12,14,16);
+    //Display "A" in the thousands place
+    //Display "C" in the hundreds place
+    //Display "E" in the tens place
+    //Display "." in the ones place
+  }
+
+  for(int i=0;i<8;i++){
+    Display_4digit_2(12,34);
+    //Display "1" in the thousands place
+    //Display "2" in the hundreds place
+    //Display "3" in the tens place
+    //Display "4" in the ones place
+  }
 }
