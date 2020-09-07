@@ -7,34 +7,32 @@
 [![Github stars](https://img.shields.io/github/stars/kouki-0926/4digit_7segment)](https://github.com/kouki-0926/4digit_7segment/stargazers)
 [![Github license](https://img.shields.io/github/license/kouki-0926/4digit_7segment)](https://github.com/kouki-0926/4digit_7segment/)
 
-# Tags
-`Arduino` `4 digit 7 segment`
-
 # Installation
+
 __If you have not installed the fastio library yet, please download the library from https://synapse.kyoto/lib/fastio/page001.html.__
 __To use it, place the source code in the Arduino libraries folder on your computer. See the example code for further usage.__
 
 # Declaration of pins and connections
 
-|  | __4digit_7segment pin__ | __74HC595 pin__ |
-|:---:|:---:|:---:|
-| segA  | 11 | Q0 |
-| segB  | 7  | Q1 |
-| segC  | 4  | Q2 |
-| segD  | 2  | Q3 |
-| segE  | 1  | Q4 |
-| segF  | 10 | Q5 |
-| segG  | 5  | Q6 |
-| segdp | 3  | Q7 |
-| | __4digit_7segment pin__ | __Arduino pin__ |
-| Digit1 | 12 | D3 |
-| Digit2 |  9 | D4 |
-| Digit3 |  8 | D5 |
-| Digit4 |  6 | D6 |
-|  | __74HC595 pin__ | __Arduino pin__ |
-| DATA   | DS    | D8  |
-| LATCH  | ST_CP | D9  |
-| CLOCK  | SH_CP | D10 |
+| | __74HC595 pin__ | | __4digit_7segment pin__ |
+|:---:|:---:|:---:|:---:|
+| segA  | Q0 |==>| 11 |
+| segB  | Q1 |==>|  7 |
+| segC  | Q2 |==>|  4 |
+| segD  | Q3 |==>|  2 |
+| segE  | Q4 |==>|  1 |
+| segF  | Q5 |==>| 10 |
+| segG  | Q6 |==>|  5 |
+| segdp | Q7 |==>|  3 |
+| | __Arduino pin__ | | __4digit_7segment pin__ |
+| Digit1 | D3 |==>| 12 |
+| Digit2 | D4 |==>| 9  |
+| Digit3 | D5 |==>| 8  |
+| Digit4 | D6 |==>| 6  |
+| | __Arduino pin__ |  | __74HC595 pin__ |
+| DATA   | D8  |==>|   DS  |
+| LATCH  | D9  |==>| ST_CP |
+| CLOCK  | D10 |==>| SH_CP |
 
 # Contributors
 - [kouki-0926](https://github.com/kouki-0926)
