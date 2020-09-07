@@ -1,7 +1,5 @@
-#ifndef _4digit_7segment_h
-#define _4digit_7segment_h
-
 #include <fastio.h>  // https://synapse.kyoto/lib/fastio/page001.html
+#include "4digit_7segment.h"
 
 #define DATAPIN 8
 #define LATCHPIN 9
@@ -100,5 +98,3 @@ void Display_4digit(int val_1,int val_2,int val_3,int val_4){
 void Display_4digit_2(int val_1,int val_2){
   Display_4digit(val_1/10,val_1%10,val_2/10,val_2%10);
 }
-
-#endif
