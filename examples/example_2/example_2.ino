@@ -1,4 +1,4 @@
-#include <4digit_7segment.h>
+#include <FourDigitSevenSegment.h>
 
 void setup(){
   init_7seg();        //initialize 4digit_7segment display and 74HC595

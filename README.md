@@ -1,4 +1,4 @@
-# 4digit_7segment   v0.1.2
+# FourDigitSevenSegment   v0.1.2
 
 ## Library for controlling 4digit_7segment display of common cathode with Arduino and 74HC595
 
