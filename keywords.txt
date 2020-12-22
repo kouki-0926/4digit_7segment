@@ -1,12 +1,12 @@
 #######################################
-# Syntax Coloring Map For 4digit_7segment
+# Syntax Coloring Map For FourDigitSevenSegment
 #######################################
 
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
 
-4digit_7segment	KEYWORD1	4digit_7segment
+FourDigitSevenSegment	KEYWORD1	FourDigitSevenSegment
 
 #######################################
 # Methods and Functions (KEYWORD2)
