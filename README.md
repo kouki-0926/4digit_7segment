@@ -2,10 +2,10 @@
 
 ## Library for controlling FourDigitSevenSegmen display of common cathode with Arduino and 74HC595
 
-[![Github issues](https://img.shields.io/github/issues/kouki-0926/FourDigitSevenSegmen)](https://github.com/kouki-0926/FourDigitSevenSegmen/issues)
-[![Github forks](https://img.shields.io/github/forks/kouki-0926/FourDigitSevenSegmen)](https://github.com/kouki-0926/FourDigitSevenSegmen/network/members)
-[![Github stars](https://img.shields.io/github/stars/kouki-0926/FourDigitSevenSegmen)](https://github.com/kouki-0926/FourDigitSevenSegmen/stargazers)
-[![Github license](https://img.shields.io/github/license/kouki-0926/FourDigitSevenSegmen)](https://github.com/kouki-0926/FourDigitSevenSegmen/)
+[![Github issues](https://img.shields.io/github/issues/kouki-0926/FourDigitSevenSegment)](https://github.com/kouki-0926/FourDigitSevenSegment/issues)
+[![Github forks](https://img.shields.io/github/forks/kouki-0926/FourDigitSevenSegment)](https://github.com/kouki-0926/FourDigitSevenSegment/network/members)
+[![Github stars](https://img.shields.io/github/stars/kouki-0926/FourDigitSevenSegment)](https://github.com/kouki-0926/FourDigitSevenSegment/stargazers)
+[![Github license](https://img.shields.io/github/license/kouki-0926/FourDigitSevenSegment)](https://github.com/kouki-0926/FourDigitSevenSegment/)
 
 # Installation
 
