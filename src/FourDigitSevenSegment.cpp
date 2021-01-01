@@ -84,7 +84,6 @@ void Display(char num, int digit) {
             digitalWrite<DIG4>(LOW);
             break;
     }
-
     my595.shiftOut(table[num]);  // Output 8-bit data
     delay(1);
 }
