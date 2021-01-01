@@ -1,6 +1,6 @@
-# FourDigitSevenSegment   v0.1.3
+# FourDigitSevenSegment   v0.1.4
 
-## Library for controlling FourDigitSevenSegmen display of common cathode with Arduino and 74HC595
+## Library for controlling FourDigitSevenSegment display of common cathode with Arduino and 74HC595
 
 [![Github issues](https://img.shields.io/github/issues/kouki-0926/FourDigitSevenSegment)](https://github.com/kouki-0926/FourDigitSevenSegment/issues)
 [![Github forks](https://img.shields.io/github/forks/kouki-0926/FourDigitSevenSegment)](https://github.com/kouki-0926/FourDigitSevenSegment/network/members)
@@ -14,7 +14,7 @@ __To use it, place the source code in the Arduino libraries folder on your compu
 
 # Declaration of pins and connections
 
-| | __74HC595 pin__ | | __FourDigitSevenSegmen pin__ |
+| | __74HC595 pin__ | | __FourDigitSevenSegment pin__ |
 |:---:|:---:|:---:|:---:|
 | segA  | Q0 |==>| 11 |
 | segB  | Q1 |==>|  7 |
@@ -24,7 +24,7 @@ __To use it, place the source code in the Arduino libraries folder on your compu
 | segF  | Q5 |==>| 10 |
 | segG  | Q6 |==>|  5 |
 | segdp | Q7 |==>|  3 |
-| | __Arduino pin__ | | __FourDigitSevenSegmen pin__ |
+| | __Arduino pin__ | | __FourDigitSevenSegment pin__ |
 | Digit1 | D3 |==>| 12 |
 | Digit2 | D4 |==>| 9  |
 | Digit3 | D5 |==>| 8  |
